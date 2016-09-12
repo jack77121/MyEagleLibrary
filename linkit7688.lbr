@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="LINKIT7688">
+<pad name="P$1.P0" x="0" y="0" drill="0.9" shape="square"/>
+<pad name="P$2.P1" x="0" y="-2.54" drill="0.9" shape="square"/>
+<pad name="P$3.P2" x="0" y="-5.08" drill="0.9" shape="square"/>
+<pad name="P$4.P3" x="0" y="-7.62" drill="0.9" shape="square"/>
+<pad name="P$5.P4" x="0" y="-10.16" drill="0.9" shape="square"/>
+<pad name="P$6.P5" x="0" y="-12.7" drill="0.9" shape="square"/>
+<pad name="P$7.P6" x="0" y="-15.24" drill="0.9" shape="square"/>
+<pad name="P$8.P7" x="0" y="-17.78" drill="0.9" shape="square"/>
+<pad name="P$9.P8" x="0" y="-20.32" drill="0.9" shape="square"/>
+<pad name="P$10.P9" x="0" y="-22.86" drill="0.9" shape="square"/>
+<pad name="P$11.GND" x="0" y="-25.4" drill="0.9" shape="square"/>
+<pad name="P$12.3V3" x="0" y="-27.94" drill="0.9" shape="square"/>
+<pad name="P$13.VCC" x="0" y="-30.48" drill="0.9" shape="square"/>
+<pad name="P$14.5V" x="0" y="-33.02" drill="0.9" shape="square"/>
+<pad name="P$15.A0" x="0" y="-35.56" drill="0.9" shape="square"/>
+<pad name="P$16.A1" x="0" y="-38.1" drill="0.9" shape="square"/>
+<pad name="P$17.A2" x="0" y="-40.64" drill="0.9" shape="square"/>
+<pad name="P$18.A3" x="0" y="-43.18" drill="0.9" shape="square"/>
+<pad name="P$19.A4" x="0" y="-45.72" drill="0.9" shape="square"/>
+<pad name="P$20.A5" x="0" y="-48.26" drill="0.9" shape="square"/>
+<pad name="P$21.S0" x="22.86" y="0" drill="0.9" shape="square"/>
+<pad name="P$22.S1" x="22.86" y="-2.54" drill="0.9" shape="square"/>
+<pad name="P$23.S2" x="22.86" y="-5.08" drill="0.9" shape="square"/>
+<pad name="P$24.S3" x="22.86" y="-7.62" drill="0.9" shape="square"/>
+<pad name="P$25.D0" x="22.86" y="-10.16" drill="0.9" shape="square"/>
+<pad name="P$26.D1" x="22.86" y="-12.7" drill="0.9" shape="square"/>
+<pad name="P$27.D2" x="22.86" y="-15.24" drill="0.9" shape="square"/>
+<pad name="P$28.D3" x="22.86" y="-17.78" drill="0.9" shape="square"/>
+<pad name="P$29.D4" x="22.86" y="-20.32" drill="0.9" shape="square"/>
+<pad name="P$30.D5" x="22.86" y="-22.86" drill="0.9" shape="square"/>
+<pad name="P$31.D6" x="22.86" y="-25.4" drill="0.9" shape="square"/>
+<pad name="P$32.D7" x="22.86" y="-27.94" drill="0.9" shape="square"/>
+<pad name="P$33.D8" x="22.86" y="-30.48" drill="0.9" shape="square"/>
+<pad name="P$34.D9" x="22.86" y="-33.02" drill="0.9" shape="square"/>
+<pad name="P$35.D10" x="22.86" y="-35.56" drill="0.9" shape="square"/>
+<pad name="P$36.D11" x="22.86" y="-38.1" drill="0.9" shape="square"/>
+<pad name="P$37.D12" x="22.86" y="-40.64" drill="0.9" shape="square"/>
+<pad name="P$38.D13" x="22.86" y="-43.18" drill="0.9" shape="square"/>
+<pad name="P$39.RST" x="22.86" y="-45.72" drill="0.9" shape="square"/>
+<pad name="P$40.AREF" x="22.86" y="-48.26" drill="0.9" shape="square"/>
+<wire x1="-1" y1="6" x2="21" y2="6" width="0.127" layer="21"/>
+<wire x1="21" y1="6" x2="24" y2="3" width="0.127" layer="21"/>
+<wire x1="24" y1="3" x2="24" y2="-54" width="0.127" layer="21"/>
+<wire x1="24" y1="-54" x2="-1" y2="-54" width="0.127" layer="21"/>
+<wire x1="-1" y1="-54" x2="-1" y2="6" width="0.127" layer="21"/>
+<wire x1="22.5" y1="-50.5" x2="22.5" y2="-55.5" width="0.127" layer="21"/>
+<wire x1="22.5" y1="-55.5" x2="14.5" y2="-55.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="-55.5" x2="14.5" y2="-50.5" width="0.127" layer="21"/>
+<wire x1="14.5" y1="-50.5" x2="22.5" y2="-50.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-50.5" x2="8.5" y2="-50.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-50.5" x2="8.5" y2="-55.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-55.5" x2="0.5" y2="-55.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-55.5" x2="0.5" y2="-50.5" width="0.127" layer="21"/>
+<text x="12" y="-37.5" size="1.27" layer="25" rot="R90">LinkIt™ Smart 7688 Duo</text>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-49.53" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-49.53" x2="-1.27" y2="-49.53" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-49.53" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="21.59" y1="1.27" x2="24.13" y2="1.27" width="0.127" layer="21"/>
+<wire x1="24.13" y1="1.27" x2="24.13" y2="-49.53" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-49.53" x2="21.59" y2="-49.53" width="0.127" layer="21"/>
+<wire x1="21.59" y1="-49.53" x2="21.59" y2="1.27" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LINKIT7688">
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-35.56" x2="-12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-35.56" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<pin name="P$1" x="-17.78" y="17.78" length="middle"/>
+<pin name="P$2" x="-17.78" y="15.24" length="middle"/>
+<pin name="P$3" x="-17.78" y="12.7" length="middle"/>
+<pin name="P$4" x="-17.78" y="10.16" length="middle"/>
+<pin name="P$5" x="-17.78" y="7.62" length="middle"/>
+<pin name="P$6" x="-17.78" y="5.08" length="middle"/>
+<pin name="P$7" x="-17.78" y="2.54" length="middle"/>
+<pin name="P$8" x="-17.78" y="0" length="middle"/>
+<pin name="P$9" x="-17.78" y="-2.54" length="middle"/>
+<pin name="P$10" x="-17.78" y="-5.08" length="middle"/>
+<pin name="P$11" x="-17.78" y="-7.62" length="middle"/>
+<pin name="P$12" x="-17.78" y="-10.16" length="middle"/>
+<pin name="P$13" x="-17.78" y="-12.7" length="middle"/>
+<pin name="P$14" x="-17.78" y="-15.24" length="middle"/>
+<pin name="P$15" x="-17.78" y="-17.78" length="middle"/>
+<pin name="P$16" x="-17.78" y="-20.32" length="middle"/>
+<pin name="P$17" x="-17.78" y="-22.86" length="middle"/>
+<pin name="P$18" x="-17.78" y="-25.4" length="middle"/>
+<pin name="P$19" x="-17.78" y="-27.94" length="middle"/>
+<pin name="P$20" x="-17.78" y="-30.48" length="middle"/>
+<pin name="P$21" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="P$22" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="P$23" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="P$24" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="P$25" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="P$26" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="P$27" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="P$28" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="P$29" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$30" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$31" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$32" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$33" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$34" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$35" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="P$36" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$37" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="P$38" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="P$39" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="P$40" x="17.78" y="-30.48" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LINKIT7688">
+<description>Linkit Smart 7688</description>
+<gates>
+<gate name="G$1" symbol="LINKIT7688" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="LINKIT7688">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1.P0"/>
+<connect gate="G$1" pin="P$10" pad="P$10.P9"/>
+<connect gate="G$1" pin="P$11" pad="P$11.GND"/>
+<connect gate="G$1" pin="P$12" pad="P$12.3V3"/>
+<connect gate="G$1" pin="P$13" pad="P$13.VCC"/>
+<connect gate="G$1" pin="P$14" pad="P$14.5V"/>
+<connect gate="G$1" pin="P$15" pad="P$15.A0"/>
+<connect gate="G$1" pin="P$16" pad="P$16.A1"/>
+<connect gate="G$1" pin="P$17" pad="P$17.A2"/>
+<connect gate="G$1" pin="P$18" pad="P$18.A3"/>
+<connect gate="G$1" pin="P$19" pad="P$19.A4"/>
+<connect gate="G$1" pin="P$2" pad="P$2.P1"/>
+<connect gate="G$1" pin="P$20" pad="P$20.A5"/>
+<connect gate="G$1" pin="P$21" pad="P$21.S0"/>
+<connect gate="G$1" pin="P$22" pad="P$22.S1"/>
+<connect gate="G$1" pin="P$23" pad="P$23.S2"/>
+<connect gate="G$1" pin="P$24" pad="P$24.S3"/>
+<connect gate="G$1" pin="P$25" pad="P$25.D0"/>
+<connect gate="G$1" pin="P$26" pad="P$26.D1"/>
+<connect gate="G$1" pin="P$27" pad="P$27.D2"/>
+<connect gate="G$1" pin="P$28" pad="P$28.D3"/>
+<connect gate="G$1" pin="P$29" pad="P$29.D4"/>
+<connect gate="G$1" pin="P$3" pad="P$3.P2"/>
+<connect gate="G$1" pin="P$30" pad="P$30.D5"/>
+<connect gate="G$1" pin="P$31" pad="P$31.D6"/>
+<connect gate="G$1" pin="P$32" pad="P$32.D7"/>
+<connect gate="G$1" pin="P$33" pad="P$33.D8"/>
+<connect gate="G$1" pin="P$34" pad="P$34.D9"/>
+<connect gate="G$1" pin="P$35" pad="P$35.D10"/>
+<connect gate="G$1" pin="P$36" pad="P$36.D11"/>
+<connect gate="G$1" pin="P$37" pad="P$37.D12"/>
+<connect gate="G$1" pin="P$38" pad="P$38.D13"/>
+<connect gate="G$1" pin="P$39" pad="P$39.RST"/>
+<connect gate="G$1" pin="P$4" pad="P$4.P3"/>
+<connect gate="G$1" pin="P$40" pad="P$40.AREF"/>
+<connect gate="G$1" pin="P$5" pad="P$5.P4"/>
+<connect gate="G$1" pin="P$6" pad="P$6.P5"/>
+<connect gate="G$1" pin="P$7" pad="P$7.P6"/>
+<connect gate="G$1" pin="P$8" pad="P$8.P7"/>
+<connect gate="G$1" pin="P$9" pad="P$9.P8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
